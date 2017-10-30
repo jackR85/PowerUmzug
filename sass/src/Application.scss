@@ -1,0 +1,104 @@
+
+.ux-desktop-trayclock {
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 0;
+  padding-bottom: 0;
+  color: white;
+  font-weight: bold;
+}
+
+/*----------------------------------------------------
+    Desktop DataView
+*/
+
+.ux-wallpaper {
+  background-color: #92C4E1;
+  background-position: bottom;
+  opacity: 0.6;
+}
+
+.ux-wallpaper-tiled {
+  background-repeat: no-repeat;
+  //background-position: center;
+}
+
+.ux-desktop-shortcut {
+  cursor: pointer;
+  text-align: center;
+  padding: 8px;
+  margin: 8px;
+  width: 80px;
+}
+
+.ux-desktop-shortcut-icon {
+  width: 48px;
+  height: 48px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+}
+
+.ux-desktop-shortcut-text {
+  font: normal 10px tahoma,arial,verdana,sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.x-view-over .ux-desktop-shortcut-text {
+  text-decoration: underline;
+}
+
+.grid-shortcut {
+  background-image: url(images/grid48x48.png);
+}
+
+.x-btn-default-toolbar-small{
+  background-image: none !important;
+  background-color: #EE8A35;
+}
+
+.x-btn-default-toolbar-small .x-btn-inner{
+  color: white !important;
+}
+
+.x-btn-over.x-btn-default-toolbar-small{
+  background-image: none !important;
+  background-color: #f9b67f;
+}
+
+.x-btn-pressed.x-btn-default-toolbar-small{
+  background-color: #EE8A35 !important;
+}
+
+.x-btn-menu-active.x-btn-default-toolbar-small{
+  background-color: #EE8A35 !important;
+}
+
+div.ux-taskbar div.x-toolbar{
+  background-color: #f7e2d2;
+  background: transparent;
+}
+
+.ux-taskbar{
+  background-color: #f7e2d2;
+  background-image : url('images/wallpapers/pu-taskbar-background.png');
+}
+
+$enable-font-awesome: dynamic(true);
+
+
+
+.fa-black:before{
+  color:black;
+}
+
+.fa-pu-red:before{
+  color:#C52C03;
+}
+
+
+.kwWeekStyle{
+  font-weight: bold;
+  font-size: x-large;
+  margin-top: 10px;
+}
