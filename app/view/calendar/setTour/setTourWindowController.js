@@ -64,14 +64,8 @@ Ext.define('PowerUmzug.view.calendar.setTour.setTourWindowController',{
     },
 
     onSaveWin: function (btn) {
-        let rec = btn.up('window').down('form').getForm().getValues();
-        console.log(rec);
-        let store = Ext.widget({
-            xtype: 'tourplanungstore'
-        });
-        console.log(store);
-        //store.add(rec);
-        store.sync()
-
+        let formData = btn.up('window').down('form').getValues();
+        
+        console.log(formData);
     }
 })

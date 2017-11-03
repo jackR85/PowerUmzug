@@ -9,7 +9,7 @@ use Yii;
  *
  * @property int $id
  * @property string $status
- * @property string $createndate
+ * @property string $creationdate
  * @property int $tourart 1 = Umzug, 2= Möbel Transport
  * @property string $markt
  * @property string $tourNr
@@ -31,7 +31,7 @@ class Tourplanung extends \yii\db\ActiveRecord
     {
         return [
             [['status'], 'string'],
-            [['createndate'], 'safe'],
+            [['creationdate'], 'safe'],
             [['tourart'], 'integer'],
             [['markt'], 'string', 'max' => 100],
             [['tourNr'], 'string', 'max' => 20],
@@ -46,7 +46,7 @@ class Tourplanung extends \yii\db\ActiveRecord
         return [
             'id' => 'ID',
             'status' => 'Status',
-            'createndate' => 'Createndate',
+            'creationdate' => 'Creationdate',
             'tourart' => 'Tourart',
             'markt' => 'Markt',
             'tourNr' => 'Tour Nr',

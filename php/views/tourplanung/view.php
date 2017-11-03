@@ -31,7 +31,7 @@ $this->params['breadcrumbs'][] = $this->title;
             'id',
             'tourdate',
             'status',
-            'createndate',
+            'creationdate',
             'Team',
             'nr',
         ],

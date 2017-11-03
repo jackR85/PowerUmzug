@@ -1,1 +1,1 @@
-cache_path = '/Applications/XAMPP/xamppfiles/htdocs/PowerUmzug/build/.sass-cache'
+cache_path = '/Applications/MAMP/htdocs/PowerUmzug/build/.sass-cache'

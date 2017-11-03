@@ -16,7 +16,7 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'status')->dropDownList([ 'Eingeplant' => 'Eingeplant', 'Abgeschlossen' => 'Abgeschlossen', 'Abgerechnet' => 'Abgerechnet', '' => '', ], ['prompt' => '']) ?>
 
-    <?= $form->field($model, 'createndate')->textInput() ?>
+    <?= $form->field($model, 'creationdate')->textInput() ?>
 
     <?= $form->field($model, 'Team')->textInput() ?>
 

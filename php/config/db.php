@@ -2,9 +2,9 @@
 
 return [
     'class' => 'yii\db\Connection',
-    'dsn' => 'mysql:host=127.0.0.1;dbname=PowerUmzug',
-    'username' => 'root',
-    'password' => 'Start123#',
+    'dsn' => 'mysql:host=127.0.0.1;dbname=powerumzug',
+    'username' => 'powerumzug',
+    'password' => 'powerumzug',
     'charset' => 'utf8',
 
     // Schema cache options (for production environment)

@@ -10,8 +10,8 @@ Ext.define('PowerUmzug.view.FzgVerwaltung.NeuesFzgHinzufuegenController', {
     onSaveReg: function (btn) {
         this.getView().setLoading(true);
         let rec = btn.up('form').getValues();
-        let check = Ext.Msg.confirm('speichern','Soll das Fahrzeug angelegt werden?',function (callback) {
-            if(callback == 'yes'){
+        let check = Ext.Msg.confirm('speichern','Soll das Fahrzeug angelegt werden?',function (answer) {
+            if(answer == 'yes'){
                 let store = this.getView().getGrid().getStore();
                 store.add(rec);
                 store.sync({
